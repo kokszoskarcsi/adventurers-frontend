@@ -1,0 +1,16 @@
+{
+    "adventurers":[
+        {"key":"1", "value":"src/assets/image872.svg"},
+        {"key":"2", "value":"src/assets/image884.svg"},
+        {"key":"3", "value":"src/assets/image896.svg"},
+        {"key":"4", "value":"src/assets/image908.svg"},
+        {"key":"5", "value":"src/assets/image920.svg"},
+        {"key":"6", "value":"src/assets/image932.svg"},
+        {"key":"7", "value":"src/assets/image998.svg"},
+        {"key":"8", "value":"src/assets/image1010.svg"},
+        {"key":"9", "value":"src/assets/image18528.svg"},
+        {"key":"10", "value":"src/assets/image18550.svg"},
+        {"key":"11", "value":"src/assets/image18574.svg"},
+        {"key":"12", "value":"src/assets/image18576.svg"}
+    ]
+}

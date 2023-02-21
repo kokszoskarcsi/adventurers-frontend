@@ -1,0 +1,11 @@
+.Title {
+    margin: 12.5% 6% 0 6%;
+    border-radius: 2vw;
+    height: 50vh;
+    background-color: var(--bc_color);
+}
+
+.welcomePic{
+    height: 100%;
+    width: 100%;
+}

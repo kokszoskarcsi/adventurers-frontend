@@ -1,0 +1,77 @@
+.navBar{
+    margin-left: 2vh;
+    border-radius: 2vw;
+    display: flex;
+    background-color: var(--bc_color);
+    height: 12vh;
+    position: fixed;
+    width: 68%;
+    top: 3%;
+    border: var(--light) solid 1vh;
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+}
+
+.left-align, .right-align{
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-align{
+    margin-left: auto;
+    padding-right: 3%;
+    gap: 2%;
+}
+
+.left-align{
+    margin-left: 1%;
+    gap: 8%;
+    font-size: 5vh;
+}
+
+button{
+    width: 7vh;
+    height: 7vh;
+    background-color: white;
+    border: 0;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 901px){
+    button{
+        width: 6.5vh;
+        height: 6.5vh;
+    }
+
+    .left-align{
+        margin-left: 0;
+        font-size: 2.5vw;
+        gap: 1vw;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 481px){
+    .navBar{
+        min-width: 70vh;
+    }
+    button{
+        width: 5vh;
+        height: 5vh;
+    }
+
+    .left-align{
+        font-size: 2.3vw;
+        gap: 1vw;
+    }
+}

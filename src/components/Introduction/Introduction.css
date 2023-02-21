@@ -1,0 +1,96 @@
+.Introduction{
+    margin: 2% 6% 0 6%;
+    border-radius: 2vw;
+    height: 55vh;
+    background-color: var(--bc_color);
+    padding: 0 5% 0 5%;
+}
+
+h1{
+    text-align: center;
+    margin: 4% 0 2% 0;
+    font-size: 5vh;
+}
+
+p{
+    font-size: 2.5vh;
+    line-height: 3vh;
+    transform: translateY(-30%);
+}
+
+.taska{
+    transform: translate(-95%, -50%);
+    height: 25%;
+    width: 25%;
+}
+
+.bot{
+    height: 50vh;
+    width: 50vh; 
+    transform: translateX(-30%);
+}
+
+.kupa{
+    height: 30vh;
+    width: 30vh;
+    transform: translate(-70%, 40%); 
+}
+
+.IntroHeader{
+    display: flex;
+}
+
+.IntroBody{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 901px){
+    h1{
+        margin-top: 5%;
+        font-size: 4vh;
+    }
+    .IntroBody > p{
+        transform: translateY(-5.5vw);
+        font-size: 1.3vw;
+        line-height: 2.5vh;
+    }
+    .bot{
+        height: 40vh;
+        width: 40vh;
+        transform: translate(-35%, 30%);
+    }
+    .kupa{
+        height: 25vh;
+        width: 25vh;
+        transform: translate(-60%, 75%);
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 481px){
+    .intro{
+        font-size: 4vh;
+        transform: translateX(-20%);
+    }
+    .IntroBody > p{
+        font-size: 1.8vh;
+        line-height: 2vh;
+        transform: translate(3%,-10%);
+    }
+    .bot{
+        height: 40vh;
+        width: 40vh;
+        transform: translate(-35%, 30%);
+    }
+    .kupa{
+        height: 25vh;
+        width: 25vh;
+        transform: translate(-60%, 75%);
+    }
+    .taska{
+        transform: translate(-75%, -50%);
+        height: 30%;
+        width: 30%;
+    }
+}
