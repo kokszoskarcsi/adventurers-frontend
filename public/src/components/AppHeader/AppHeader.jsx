@@ -3,6 +3,7 @@ import "../AppHeader/AppHeader.css"
 import themeSelector from "../../themes";
 
 function AppHeader(){
+    const discordIcon = "gs://daowelcomesite.appspot.com/discord.svg";
     return (
         <div className="navBar">
             <div className="left-align">
