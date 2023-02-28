@@ -1,16 +1,22 @@
 import { React } from "react";
 import "../AppHeader/AppHeader.css";
-import themeSelector from "../../themes";
+import Theme from "../../themes";
 import discordSVG from "../../assets/discord.svg";
 import twitterSVG from "../../assets/twitter.svg";
+import moonSVG from "../../assets/moon.svg";
+import smallIconPNG from "../../assets/icon_small.png";
 
 function AppHeader() {
-  const discordIcon = "gs://daowelcomesite.appspot.com/discord.svg";
+  const theme = new Theme();
   return (
-    <div className="navBar">
+    <div className="navBar" id="navBar">
       <div className="left-align">
-        <img src="src/assets/icon_small.png" alt="Logo" />
-        <a href="" id="dark">
+        <img src={smallIconPNG} alt="Logo" className="logo" />
+        <a
+          href="#Title"
+          onMouseOver={theme.hoverInColor}
+          onMouseOut={theme.hoverOutColor}
+        >
           Home
         </a>
         <a href="#Introduction">Introduction</a>
@@ -20,24 +26,24 @@ function AppHeader() {
         <div>
           <button>
             <a href="https://twitter.com/AdventurersDAO">
-              <img src={discordSVG} alt="" />
+              <img src={twitterSVG} alt="" />
             </a>
           </button>
         </div>
         <div>
           <button>
             <a href="https://discord.com/invite/PGGh5nAFWz">
-              <img src={twitterSVG} alt="" />
+              <img src={discordSVG} alt="" />
             </a>
           </button>
         </div>
         <div>
           <button
             onClick={() => {
-              themeSelector();
+              theme.themeSelector();
             }}
           >
-            <img src="src/assets/moon.svg" alt="" />
+            <img src={moonSVG} alt="" />
           </button>
         </div>
       </div>

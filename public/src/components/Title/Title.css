@@ -1,11 +1,42 @@
 .Title {
-    margin: 12.5% 6% 0 6%;
-    border-radius: 2vw;
-    height: 50vh;
-    background-color: var(--bc_color);
+  margin: 12.5% 6% 0 6%;
+  border-radius: 2vw;
+  height: 50vh;
+  display: flex;
+  background-color: var(--bc_color);
 }
 
-.welcomePic{
-    height: 100%;
-    width: 100%;
+.welcomePic {
+  margin-left: auto;
+  margin-right: 6%;
+  height: 100%;
+  width: 100%;
+}
+
+#Title {
+  transform: translateY(-40vh);
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 901px) {
+  .Title {
+    margin-top: 15%;
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 481px) {
+  .Title {
+    margin-top: 20%;
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 250px) {
+  .Title {
+    margin-top: 27%;
+    height: 30vh;
+  }
+  .Title > img {
+    width: 90%;
+  }
 }
