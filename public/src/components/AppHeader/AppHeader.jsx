@@ -4,10 +4,49 @@ import Theme from "../../themes";
 import discordSVG from "../../assets/discord.svg";
 import twitterSVG from "../../assets/twitter.svg";
 import moonSVG from "../../assets/moon.svg";
+import sunSVG from "../../assets/sun.svg";
 import smallIconPNG from "../../assets/icon_small.png";
+import { useState } from "react";
 
 function AppHeader() {
   const theme = new Theme();
+  const [button, setButton] = useState(
+    <button
+      onClick={() => {
+        theme.themeSelector();
+        console.log("nap");
+      }}
+    >
+      <img src={moonSVG} alt="" />
+    </button>
+  );
+  function switchMode() {
+    if (document.body.classList.contains("black")) {
+      return () =>
+        setButton(
+          <button
+            onClick={() => {
+              theme.themeSelector();
+              console.log("nap");
+            }}
+          >
+            <img src={moonSVG} alt="" />
+          </button>
+        );
+    } else {
+      return () =>
+        setButton(
+          <button
+            onClick={() => {
+              theme.themeSelector();
+              console.log("hold");
+            }}
+          >
+            <img src={sunSVG} alt="" />
+          </button>
+        );
+    }
+  }
   return (
     <div className="navBar" id="navBar">
       <div className="left-align">
@@ -38,13 +77,7 @@ function AppHeader() {
           </button>
         </div>
         <div>
-          <button
-            onClick={() => {
-              theme.themeSelector();
-            }}
-          >
-            <img src={moonSVG} alt="" />
-          </button>
+          <button onClick={switchMode()}>{button}</button>
         </div>
       </div>
     </div>

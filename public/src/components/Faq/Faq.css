@@ -14,6 +14,7 @@ h1 {
 .qna {
   display: flex;
   align-items: center;
+  height: 65%;
 }
 
 .answers > p {
@@ -55,7 +56,7 @@ h1 {
 }
 
 .icons {
-  transform: translate(20%, -10%);
+  transform: translateX(20%);
   margin-left: 15vw;
   display: flex;
   gap: 40%;

@@ -42,8 +42,6 @@ class Theme {
       }
       document.querySelector(":root").style.backgroundColor = "var(--dark)";
     }
-    console.log(this.hoverInColor);
-    console.log(this.hoverOutColor);
   }
 }
 

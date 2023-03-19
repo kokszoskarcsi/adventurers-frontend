@@ -3,10 +3,7 @@
     { "key": "1", "q": "What is a DAO?" },
     { "key": "2", "q": "Are we working on a game?" },
     { "key": "3", "q": "Why ergo?" },
-    { "key": "4", "q": "What is a Creative Hub DAO?" },
-    { "key": "5", "q": "What is the $OBSIDIAN token?" },
-    { "key": "6", "q": "What is the current status of the AdventurersDAO?" },
-    { "key": "7", "q": "What is the Codex?" }
+    { "key": "4", "q": "What is the $OBSIDIAN token?" }
   ],
   "answers": [
     {
@@ -19,23 +16,11 @@
     },
     {
       "key": "3",
-      "a": "Ergo is a next-generation smart contract platform that ensures the economic freedom of ordinary people through secure, accessible, and decentralized financial tools. I chose this blockchain because: 1) True decentralization is important for me. 2) Interesting benefits over competitors. 3) Huge potential, as in my opinion both the community and the chain are currently in their 'pre-network effect' era and opportunities are still untapped."
+      "a": "Ergo is a next-generation smart contract platform that ensures the economic freedom of ordinary people through secure, accessible, and decentralized financial tools. We chose this blockchain because: 1) True decentralization is important for us. 2) Interesting benefits over competitors. 3) Huge potential, as in my opinion both the community and the chain are currently in their 'pre-network effect' era and opportunities are still untapped."
     },
     {
       "key": "4",
-      "a": "A Creative Hub DAO is focusing on creating a collaborative community for artists, programmers, researchers, and all kinds of doers and dreamers alike. It operates on a blockchain network, allowing members to pool their resources, make collective decisions through a governance system, and support each other in their endeavors. We aim to provide a platform for members to bring their ideas to life, share their work with the world, and foster collaboration and growth within the community."
-    },
-    {
-      "key": "5",
       "a": "This is our governance token - members can use it to vote on proposals on-chain. Total supply = 25.000.000 (100%) Airdrops = 20.000.000 (80%) As you can see, most of the tokens will be airdropped to Adventurer NFT holders. Each Adventurer will receive 100.000 $OBSIDIAN tokens once, and there will be 200 Adventurer NFTs in total. (We might release different collections in the future with different utilities, but that is not the topic of this temperature check.) Rewards = 1.000.000 (4%) This category gives us some room for new ideas - these tokens will be rewarded to those who contribute to the life of the DAO in some outstanding way. Liquidity = 4.000.000 (16%) These tokens will be used to create an LP pool on Spectrum DEX. Half of the tokens will be sold in private rounds to raise the $ERG needed to create the LP pair. At the start, only a portion of this will be sold, and liquidity will be added continuously. It will be sold at a price that does not dilute the $OBSIDIAN price. Every $OBSIDIAN token not yet distributed will be held in a treasury wallet, and will not be used in any way."
-    },
-    {
-      "key": "6",
-      "a": "The AdventurersDAO is currently in the centralized phase, where decisions are made by a centralized party, and all funds are used to cover operational expenses. In the future, the organization will undergo two additional phases: the transitional phase and the DAO phase. In the semi-DAO phase, the community will ratify the first on-chain proposal, the Codex, marking the transition from centralized decision-making to a more democratic process. During this phase, 50% of funds will be allocated to the DAO treasury and the community will be able to create and vote on proposals. In the final DAO phase, the founding members will step down from their roles and become equal members of the community. All decisions will be made and executed by community members. The treasury will receive 100% of the funds. This gradual progression from centralized decision-making to full autonomy represents the ultimate goal of the AdventurersDAO."
-    },
-    {
-      "key": "7",
-      "a": "The Codex is the first on-chain proposal and our whitepaper. It will be ratified during the transitional phase. It outlines the fundamental rules and regulations for the organization, including the roles and responsibilities of members, the decision-making process, and the allocation of resources. The Codex will be the cornerstone of the AdventurersDAO's governance system and will serve as the foundation for future proposals and decision-making processes."
     }
   ]
 }
